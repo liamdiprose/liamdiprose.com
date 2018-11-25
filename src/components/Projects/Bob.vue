@@ -1,13 +1,7 @@
 <template lang="pug">
-    section.project#bob
+    section#bob
         h1 This is bob's project
+        img(src='@/assets/logo.png')
 
         p He likes to make projects
 </template>
-
-<script>
-export default {
-    name: 'BobProject'
-}
-</script>
-

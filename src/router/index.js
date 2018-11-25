@@ -15,17 +15,7 @@ export default new Router({
     },
     {
       path: '/projects',
-      component: ProjectsFrame,
-      children: [
-        {
-          path: '',
-          component: ProjectsOverview
-        },
-        {
-          path: 'bob',
-          component: BobProject
-        }
-      ]
+      component: ProjectsFrame
     }
   ]
 })

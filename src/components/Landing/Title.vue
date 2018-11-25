@@ -61,7 +61,7 @@ export default {
   height: 60vw;
   // min-width: 350px;
   min-height: 185px;
-  max-height: 80vh;
+  max-height: 100vh;
   z-index: 0;
 }
 </style>
